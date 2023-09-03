@@ -12,8 +12,18 @@ body {
   color: var(--slate);
   background-color: var(--white);
 }
-/* Header */
 
+.container {
+  width: 1158px;
+}
+/* Header */
+.header-container {
+  display: flex;
+}
+.header-address {
+  display: flex;
+  gap: 40px;
+}
 .logo {
   color: var(--iris);
   font-family: 'Raleway', sans-serif;
@@ -22,6 +32,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-dark {
@@ -30,6 +41,15 @@ body {
 
 .list {
   list-style-type: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-list-item {

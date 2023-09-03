@@ -188,6 +188,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 .doing-list {
   display: flex;

@@ -27,11 +27,11 @@ body {
 }
 .header-container {
   display: flex;
-  padding: 24px 15px;
 }
 .header-address {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .logo {
   color: var(--iris);
@@ -59,6 +59,8 @@ body {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+  margin-right: 332px;
 }
 
 .nav-list-item {

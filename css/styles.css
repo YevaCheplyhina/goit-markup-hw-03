@@ -26,6 +26,15 @@ ul {
   margin: 0;
   padding: 0;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /* Header */
 
 .header {
@@ -173,7 +182,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 0;
 }
 .benefits-list-item {
   width: calc((100% - 72px) / 4);
@@ -181,7 +189,6 @@ ul {
 .benefits-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
 }
 /* Doing Section */
 .doing-section {
@@ -195,7 +202,6 @@ ul {
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 72px;
-  margin-top: 0;
 }
 .doing-list {
   display: flex;
@@ -207,6 +213,7 @@ ul {
 /* Team Section */
 .team-section {
   background: var(--cloud);
+  padding: 120px 0;
 }
 .team-title {
   color: var(--navyblue);
@@ -215,10 +222,19 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
-
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-list-item {
   background-color: var(--white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-item-title {
   color: var(--navyblue);
@@ -226,12 +242,17 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
-
+.position-container {
+  padding: 32px 0;
+}
 /* Portfolio Section */
 
 .filter-button {

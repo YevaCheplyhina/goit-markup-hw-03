@@ -6,7 +6,9 @@
   --cloud: #f4f4fd;
   --white: #fff;
 }
-
+img {
+  display: block;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
@@ -25,7 +27,7 @@ body {
 }
 .header-container {
   display: flex;
-  padding: 24px 0;
+  padding: 24px 15px;
 }
 .header-address {
   display: flex;

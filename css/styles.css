@@ -59,7 +59,7 @@ body {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+
   margin-right: 332px;
 }
 
@@ -68,6 +68,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .address {

@@ -43,6 +43,8 @@ h6 {
 }
 .header-container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-address {
   display: flex;
@@ -76,7 +78,7 @@ h6 {
 .nav-list {
   display: flex;
   gap: 40px;
-  margin: 0 332px 0 0;
+  margin-right: auto;
   padding-left: 0;
 }
 
@@ -334,8 +336,10 @@ h6 {
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 0;
 }
